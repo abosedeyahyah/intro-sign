@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("images/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%);
+}
+
+.container {
+    height: 100vh;
+}
+
+.header {
+    color: #fff;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 5px;
+    background-color: hsl(248, 32%, 49%);
+    text-align: center;
+}
+
+.btn {
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    width: 100%;
+}
+
+.p-2 {
+    color: hsl(246, 25%, 77%);
+}
+
+.form-section {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+}
+
+input[type=text],
+input[type=text],
+input[type=number],
+textarea {
+    width: 100%;
+    padding: 8px 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border: 1px solid hsl(246, 25%, 77%);
+}
+
+.form-section p {
+    font-size: 14px;
+}
+
+.form-section p span {
+    color: red;
+}
+
+h1 {
+    color: #fff;
+    font-size: 3.5rem;
+}
